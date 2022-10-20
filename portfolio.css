@@ -1,8 +1,16 @@
 body{
+    margin: 0%;
     font-family: 'Crimson Pro', serif;
+    background-image: url("Images/sky.jpg");
 }
 h1{
         font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: darkred;
 }
 .name-highlight{
     color:blueviolet;
@@ -15,5 +23,67 @@ h1{
 }
 .half-width img{
     width: 100%;
-    padding-top: 20%;
+}
+.top-banner{
+    background-image: url("Images/sky.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(cyan, darkcyan) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: darkblue;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("Images/wp8514020-blur-light-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 10px plum;
+    border-radius: 5px;
+    height: 70%;
+    background-color: peachpuff;
+    height: 300px;
+    width: 40%;
+    overflow: auto;
+}
+.experience-area{
+    background-image: url("Images/profile-8.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(violet, blueviolet);
+    border-image-slice: 1 ;
+    text-align: center;
+}
+#baby-web{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blueviolet, violet);
+    border-image-slice: 1 ;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+.child{
+    background-color: indianred;
+    padding: 5px 5px 5px 5px;
+    height: 90%;
+    width: 70%;
+    transition: transform 15s;
+}
+.parent:hover .child{
+    background-color: hotpink;
+    transform: translateY(70%);
+    padding:10%;
 }
