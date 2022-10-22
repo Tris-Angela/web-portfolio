@@ -89,6 +89,3 @@ footer p{
     transform: translateY(70%);
     padding:10%;
 }
-@media all and (max-width:800px) {
-    body{ color: black;}
-}
