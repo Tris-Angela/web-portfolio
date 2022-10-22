@@ -1,7 +1,12 @@
 body{
     margin: 0%;
     font-family: 'Crimson Pro', serif;
-    background-image: url("Images/sky.jpg");
+    background-color: rgba(17, 109, 146, 0.962);
+}
+@media only screen and (max-width: 600px){
+    body {
+        background-color: lightblue;
+    }
 }
 h1{
         font-size: 50px;
@@ -31,6 +36,7 @@ p{
 }
 section{
     height: 500px;
+    padding: 0%;
 }
 .link-button{
     text-decoration: none;
@@ -55,7 +61,8 @@ section{
     overflow: auto;
 }
 .experience-area{
-    background-image: url("Images/profile-8.jpg");
+    padding-top: 2px;
+    background-image: url("Images/deep.jpg");
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -86,4 +93,7 @@ footer p{
     background-color: hotpink;
     transform: translateY(70%);
     padding:10%;
+}
+@media all and (max-width:800px) {
+    body{ color: black;}
 }
